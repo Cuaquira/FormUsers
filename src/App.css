@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(183, 185, 185);
+}
+.Formlist{
+    margin: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn.btn-primary{
+    width: 200px;
+    height: 50px;
+    margin-top: 2.3rem;
+    background-color: rgb(135, 135, 135);
+    border: black;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-group-item{
+    background-color: rgb(175, 177, 177);
+    margin: 0.5rem;
+    border-radius: 2% 2% 2% 2%;
+    color: white;
+    box-shadow: 10px 5px 10px rgb(164, 164, 164);
+}
+.list-group{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:5rem;
+}
+.form_group{
+    width: 30%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 35%;
+    padding: 5rem;
+    border-radius: 5%;
+    background-color: rgb(195, 199, 199);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mb-3{
+    margin: 1rem;
+    display: flex;
+}
+.form-control{
+    
+}
+.list{
+    text-align: center;
+    padding-bottom: 0.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.btn.btn-danger{
+    width: 90px;
+}
+.btn.btn-warning{
+    width: 90px;
+    color: white;
+    background-color: rgb(111, 110, 110);
+    border: rgb(90, 89, 89);
+}
+.Button{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0.8rem;
+}
+.fa-solid.fa-user::before{
+    font-size: 30px;
+    position: relative;
+    top: 0.2rem;
+    right: 1rem;
+    color: white;
+}
+.fa-solid.fa-cake-candles::before{
+    font-size:30px ;
+    position: relative;
+    right: 1rem;
+    color: white;
+}
+.fa-solid.fa-envelope{
+    font-size:30px ;
+    position: relative;
+    right: 1rem;
+    color: white;
+}
+.fa-solid.fa-lock::before{
+    font-size:30px ;
+    position: relative;
+    right: 1rem;
+    color: white;
+}
+.title{
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
