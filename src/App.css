@@ -91,3 +91,11 @@ body{
     color: white;
 }
 
+.Cardlist{
+    background-color: rgb(125, 125, 125);
+    width: 400px;
+    padding: 10px;
+    border-radius: 3%;
+    margin: 1rem;
+}
+
