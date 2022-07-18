@@ -57,9 +57,9 @@ const Boton = styled.div`
   display: block;
   padding: 10px 30px;
   border-radius: 100px;
-  color: #f2f2f2;
+  color: black;
   border: none;
-  background: #1766DC;
+  background: #f2f2f2;
   &:hover{
     background: "0066FF;
   }

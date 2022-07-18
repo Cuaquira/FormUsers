@@ -11,6 +11,8 @@ body{
     margin-top: 2.3rem;
     background-color: rgb(135, 135, 135);
     border: black;  
+    position: relative;
+    left: 28%;
 }
 
 .list-group-item{
@@ -99,3 +101,8 @@ body{
     margin: 1rem;
 }
 
+.list_user{
+    color: rgb(83, 83, 83);
+    position: relative;
+    left: 28%;
+}

@@ -47,7 +47,7 @@ const UserForms = ({ getUser, selectUser, open, close }) => {
             <Overlay>
                 <ContenedorModal>
                     <EncabezaModal>
-                        <h1>LIST USERS</h1>
+                        <h1 className='list_user'>LIST USERS</h1>
 
                         <Boton onClick={() => close(false)}>X</Boton>
 
@@ -109,7 +109,7 @@ const UserForms = ({ getUser, selectUser, open, close }) => {
                                 value={password} />
                         </div>
 
-                        <button type="submit" className="btn btn-primary">Submit</button>
+                        <button type="submit" className="btn btn-primary">Add</button>
                     </form>
                 </ContenedorModal>
 
