@@ -142,6 +142,7 @@ const ContenedorModal = styled.div`
     background: #fff;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px;
+    border-radius: 8%;
     `;
 
     const EncabezaModal = styled.div`
